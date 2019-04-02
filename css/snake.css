@@ -1,0 +1,12 @@
+#about{
+	float: left;
+	width: 200;
+	height: 800;
+}
+
+#mainCanvas{
+	border: 1px solid #000000;
+}
+#hidden{
+	display: none;
+}

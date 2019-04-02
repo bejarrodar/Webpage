@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Jarrod Caplan</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" id="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<p Style="text-align:center;font-size:30px">
+			The Fibonacci sequence is constructed by adding the last two numbers of the sequence so far to get the next number in the sequence.<br> The first and second numbers of the sequence are defined as 0 and 1.
+		</p>
+		<form id="input" method="post">
+			First number:<br>
+			<input type="number" name="firstNumber" min="0" max="10000" id="lowNum"><br>
+			Last number:<br>
+			<input type="number" name="lastNumber" min="0" max="10000" id="highNum"><br>
+			<button type='button' onclick="fibo()">Display</button>
+		</form>
+		<p Style="text-align:center;font-size:30px" id="Output">
+			
+		</p>
+		<script language="javascript" type="text/javascript" src="fibonacci.js"></script>
+	</body>
+</html>
