@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarrod Caplan</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <button class="menu-icon-btn" data-menu-icon-btn>
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="menu-icon" ><g><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></g></svg>
+        </button> 
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar" data-sidebar>
+            <div class="top-sidebar">
+                <a href="#" class="picture-self"><img src="picture.jpeg" alt="Picture of Jarrod"></a>
+                <div class="hidden-sidebar my-name">Jarrod Caplan</div>
+            </div>
+            <div class="middle-sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item active">
+                        <a href="#about-me" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+                          <div class="hidden-sidebar">About Me</div>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#proficiencies" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                          <div class="hidden-sidebar">Proficiencies</div>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#education" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                          <div class="hidden-sidebar">Education</div>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#career-highlights" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="#000000"><path d="M4 19Q4 19 4 19Q4 19 4 19V8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 8 4 8Q4 11.875 4 14.037Q4 16.2 4 17.262Q4 18.325 4 18.6Q4 18.875 4 19ZM4 21Q3.175 21 2.588 20.413Q2 19.825 2 19V8Q2 7.175 2.588 6.588Q3.175 6 4 6H8V4Q8 3.175 8.588 2.587Q9.175 2 10 2H14Q14.825 2 15.413 2.587Q16 3.175 16 4V6H20Q20.825 6 21.413 6.588Q22 7.175 22 8V12.275Q21.55 11.95 21.05 11.712Q20.55 11.475 20 11.3V8Q20 8 20 8Q20 8 20 8H4Q4 8 4 8Q4 8 4 8V19Q4 19 4 19Q4 19 4 19H11.075Q11.15 19.525 11.3 20.025Q11.45 20.525 11.675 21ZM10 6H14V4Q14 4 14 4Q14 4 14 4H10Q10 4 10 4Q10 4 10 4ZM18 23Q15.925 23 14.463 21.538Q13 20.075 13 18Q13 15.925 14.463 14.462Q15.925 13 18 13Q20.075 13 21.538 14.462Q23 15.925 23 18Q23 20.075 21.538 21.538Q20.075 23 18 23ZM19.65 20.35 20.35 19.65 18.5 17.8V15H17.5V18.2Z"/></svg>
+                          <div class="hidden-sidebar">Career Highlights</div>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="https://github.com/bejarrodar" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"/></svg>
+                          <div class="hidden-sidebar">GitHub</div>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="https://www.linkedin.com/in/jarrod-caplan/" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#0000FF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"/></svg>
+                          <div class="hidden-sidebar">LinkedIn</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-sidebar">
+            </div>
+        </aside>
+        <main class="content">
+            <div id="about-me">
+                Certificated software developer with bachelor's degree in information technology complemented by solid understanding of designing and developing applications using Java programming language, writing efficient codes, and debugging / testing all software and codes. Capable of working in various phases of product launch cycle including requirements, architecture, development, testing, and long-term support. Capacity to design and develop software for products according to technical, software, and test specifications.  Ability to manage and lead various software development projects from inception to completion within defined scope, quality, and timeline. Possess solid interpersonal, communication, and problem-solving skills. 
+            </div>
+            <div id="proficiencies">
+                Technical Proficiencies:
+                <ul id="prof-list">
+                    <li>Windows</li>
+                    <li>Linux</li>
+                    <li>Arduino</li>
+                    <li>Rasp. PI</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>LUA</li>
+                    <li>VBA</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Eclipse</li>
+                    <li>Arduino IDE</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+            <div id="education">
+                <div id="school">Bachelor of Science in information technology with advanced software developer certificate, 2021
+                    University of Phoenix, Phoenix, AZ</div>
+                    Key Courses:
+                <ul>
+                    <li>Project Planning & Implementation</li>
+                    <li>Database Integration with Other Systems</li>
+                    <li>Advanced Database Architecture</li>
+                    <li>Data Structures for Problem Solving</li>
+                    <li>Data Programming Languages</li>
+                    <li>.NET I / .NET II</li>
+                    <li>Software Architecture</li>
+                    <li>Java Programming I / Java Programming II</li>
+                </ul>
+            </div>
+            <div id="career-highlights">
+                <div id="job">University of Phoenix, Phoenix, AZ</div><div id="date"> 2019 – 2021</div>
+                <div id="role">Student of Information Technology</div> 
+                <p>Developed in-depth understanding of applying key principles of systems analysis and design to determine business processes within organization aimed at implementing effective information systems. Learned to design and develop key database models aligning with business requirements for storage, retrieval, and use of data.</p>
+                <ul>
+                    <li>Gained knowledge of developing network and cloud infrastructures complying with key requirements to improve organizational network operation.</li>
+                    <li>Enhanced skills to execute cybersecurity solutions in compliance with global governance best practices.</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+    </div>
+</body>
+</html>
